@@ -9,7 +9,6 @@ function generateName(){
 
     let gender = document.getElementById("gender").value;
 
-    console.log(gender)
     let century = year.slice(0,2);
 
     let yearName = year.slice(2,4);
@@ -27,5 +26,14 @@ function generateName(){
     }
     else{
         document.getElementById("akan").innerHTML= femaleNames[day - 1]
+    }
+    if(date <= 0 || date > 31){
+        alert("The date entered is invalid")
+    }
+    else if(month <= 0 || month > 12){
+        alert("The month entered is invalid")
+    }
+    else if(year < 1000 || year >= 9999){
+        alert("The year entered is invalid")
     }
 }
