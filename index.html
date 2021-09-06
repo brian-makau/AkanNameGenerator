@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan-Name-Generator</title>
     <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
   <div class="container">
@@ -20,24 +21,26 @@
     </div>
     
     <div class="wrap">
-        <form onsubmit="return false">
-            Name: <br>
-            <input type="text" name="your name" id="name" placeholder="First Name"> <br>
-            Date: <br>
-            <input type="number" id="date" placeholder="DD"><br>
-            Month: <br>
-            <input type="number" id="month" placeholder="MM"><br>
-            Year: <br>
-            <input type="number" id="year" placeholder="YY"><br>
-
-            <select id="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select> <br>
-            
-            <input type="submit" onclick="generateName()" value="Submit">
-            <input type="Reset" value="Reset">
-        </form>
+        <div class="form">
+            <form onsubmit="return false">
+                Name: <br>
+                <input type="text" name="your name" id="name" placeholder="First Name"> <br>
+                Date: <br>
+                <input type="number" id="date" placeholder="DD"><br>
+                Month: <br>
+                <input type="number" id="month" placeholder="MM"><br>
+                Year: <br>
+                <input type="number" id="year" placeholder="YY"><br>
+    
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select> <br>
+                
+                <input type="submit" onclick="generateName()" value="Submit">
+                <input type="Reset" value="Reset">
+            </form>
+        </div>
     </div>
 
     <div>
