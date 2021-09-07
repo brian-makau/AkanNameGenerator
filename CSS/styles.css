@@ -1,3 +1,22 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.pageHeading{
+    text-align: center;
+}
+.form{
+    border: solid black 1px;
+}
+.form-group{
+    width: 70vw;
+    margin-left: 20px;
+}
+.button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.results{
+    text-align: center;
+    
 }
