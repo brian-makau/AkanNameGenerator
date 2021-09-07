@@ -2,6 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
 }
+body{
+    background-image: url(/Assets/tim-hufner-cWFeejk4bA0-unsplash.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
 .pageHeading{
     text-align: center;
 }
@@ -18,5 +27,5 @@
 }
 .results{
     text-align: center;
-    
+
 }
