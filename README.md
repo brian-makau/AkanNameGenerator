@@ -1,6 +1,7 @@
 # {AKAN NAME GENERATOR}
 #### {A Web application that generates a user's Akan name based on their gender and D.O.B}, {August 31st 2021}
-#### Project Done By {Brian Makau Mutiso}
+#### Project Done By 
+Brian Makau Mutiso, an up and coming stydent at MOringa SChool
 ## Description
 {The project is a name generator. It keys in a user's information, that is Date of Birth and Gender and generates one's Akan name according to the provided information.}
 ## BDD
@@ -16,6 +17,6 @@ The project is really simple. It only requires that the user key in their inform
     *JavaScript
 }
 ## Support and contact details
-{If you run into any issues or have questions, ideas or concerns, feel free to contact us and make a contribution to the code.}
+{If you run into any issues or have questions, ideas or concerns, feel free to contact us and make a contribution to the code. Reach out to me via email @makaubryann@gmail.com}
 ### License
 *{This project is under the [MIT] LICENCE. Copyright (c) {2021}See the license here https://github.com/brian-makau/AkanNameGenerator/blob/master/LICENSE **{BRIAN MAKAU}**
