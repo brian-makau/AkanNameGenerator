@@ -15,6 +15,7 @@ body{
 }
 .pageHeading{
     text-align: center;
+    color: chocolate;
 }
 .form{
     border: solid black 1px;
